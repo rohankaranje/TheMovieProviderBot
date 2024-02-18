@@ -52,6 +52,10 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
                     InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
+                  ],[
+                    InlineKeyboardButton('✨ Visit anime website ✨', url=f'https://animedekho123.blogspot.com')
+                  ],[
+                    InlineKeyboardButton('Contact Bot Owner🧑‍💻', url=f'https://t.me/Rohankarnje')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -122,6 +126,10 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
                     InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
+                  ],[
+                    InlineKeyboardButton('✨ Visit anime website ✨', url=f'https://animedekho123.blogspot.com')
+                  ],[
+                    InlineKeyboardButton('Contact Bot Owner🧑‍💻', url=f'https://t.me/Rohankarnje')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
