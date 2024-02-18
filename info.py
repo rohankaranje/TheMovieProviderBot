@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'premiumfilter')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '41149ef8d5696ea7318485ba39b9224f52b7bdd8')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
